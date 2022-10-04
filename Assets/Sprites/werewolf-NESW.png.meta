@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1922289498c04d248a0c1b9a75759656
+guid: 375b16d8588a8974c97e834d609e4b65
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,13 +116,76 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ram_walk_0
+      name: werewolf-NESW_0
       rect:
         serializedVersion: 2
-        x: 50
-        y: 423
+        x: 9
+        y: 194
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c45382931192346b7db8f0013487a7
+      internalID: 278633391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werewolf-NESW_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 197
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff180a4b504e3de4790cd384bc6dd305
+      internalID: 1767811614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werewolf-NESW_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 194
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f43cd0ef22dbee48a6e5ca138cccbeb
+      internalID: -763238216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werewolf-NESW_3
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 131
         width: 27
-        height: 49
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +193,167 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a78a384ef03a3ca42a25658aece72a25
-      internalID: -352690255
+      spriteID: c7560c57956ae254b90c8aba7e3c4eac
+      internalID: -1411314331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ram_walk_1
+      name: werewolf-NESW_4
       rect:
         serializedVersion: 2
-        x: 178
-        y: 425
+        x: 62
+        y: 132
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f853d89f26b25b47b6073f4f3413884
+      internalID: 1049372038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werewolf-NESW_5
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 131
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1d46a0a40453743a92fe4472501a40
+      internalID: -741044713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werewolf-NESW_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 66
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f57fe67e1762e44a300f059d21aed8
+      internalID: -1179953200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werewolf-NESW_7
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 68
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f514028ee4d8f440a11a614ddecbcde
+      internalID: -1005406605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werewolf-NESW_8
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 66
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9ebf7b803cafe4c8c1432f8b499803
+      internalID: -2113968681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werewolf-NESW_9
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5483aa646371d2e419f112d03b52ab5b
+      internalID: 1949697441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werewolf-NESW_10
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 4
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104ca97f2d8bf054ba948bbe169b4d21
+      internalID: -1040217863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: werewolf-NESW_11
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 3
         width: 27
-        height: 48
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,302 +361,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c0baa5f4621ae54abaf091a55a71989
-      internalID: -1658134661
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ram_walk_2
-      rect:
-        serializedVersion: 2
-        x: 306
-        y: 423
-        width: 27
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee7f26bd520522046a22ff48bd53a050
-      internalID: 971248294
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ram_walk_3
-      rect:
-        serializedVersion: 2
-        x: 434
-        y: 425
-        width: 27
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b173f90e488b9984398533de65090097
-      internalID: 1809172042
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ram_walk_4
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 302
-        width: 49
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba81b5bfc3ac9a041a275df20783d06f
-      internalID: 497723822
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ram_walk_5
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 302
-        width: 49
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30efc977c58f6ce4e9f5f3f4c8f37a20
-      internalID: 461198881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ram_walk_6
-      rect:
-        serializedVersion: 2
-        x: 293
-        y: 301
-        width: 49
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 297fe5a3efc0b0642a57682b8049334c
-      internalID: -966286874
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ram_walk_7
-      rect:
-        serializedVersion: 2
-        x: 421
-        y: 302
-        width: 49
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4a908c7efdc7344abd2b6e105dc18b7
-      internalID: -577868329
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ram_walk_8
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 167
-        width: 27
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ed6b71ada097a942a0ac7ab7ba4a227
-      internalID: -995523326
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ram_walk_9
-      rect:
-        serializedVersion: 2
-        x: 178
-        y: 169
-        width: 27
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a7d0b9c9c2a21c24ebd0d5427913967c
-      internalID: 450461775
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ram_walk_10
-      rect:
-        serializedVersion: 2
-        x: 306
-        y: 167
-        width: 27
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e71f2819bc89d2741827b54509048951
-      internalID: 661697720
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ram_walk_11
-      rect:
-        serializedVersion: 2
-        x: 434
-        y: 169
-        width: 27
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 60caeae904b064e48b48dcbcfd5f3084
-      internalID: -1342919319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ram_walk_12
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 46
-        width: 49
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e612999b312baf44498f3c47b9512aaf
-      internalID: 502096074
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ram_walk_13
-      rect:
-        serializedVersion: 2
-        x: 170
-        y: 46
-        width: 49
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c9017e8532a656d48bcde2ff19dee67a
-      internalID: -1731317650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ram_walk_14
-      rect:
-        serializedVersion: 2
-        x: 298
-        y: 45
-        width: 49
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6fecbd84ce79b904aa734a6247f0488e
-      internalID: 1927248308
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ram_walk_15
-      rect:
-        serializedVersion: 2
-        x: 426
-        y: 46
-        width: 49
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cce0ae0a274db7345a1536cbc629bdb7
-      internalID: 1978801851
+      spriteID: 528591ba4847bab4d999496c5cddc180
+      internalID: 1689919817
       vertices: []
       indices: 
       edges: []
@@ -454,7 +370,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 9d171701d52efc244b12eacb3e173289
+    spriteID: baee2b114fdf7484aadda67ddeb92020
     internalID: 0
     vertices: []
     indices: 
@@ -462,22 +378,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ram_walk_5: 461198881
-      ram_walk_14: 1927248308
-      ram_walk_11: -1342919319
-      ram_walk_6: -966286874
-      ram_walk_3: 1809172042
-      ram_walk_12: 502096074
-      ram_walk_15: 1978801851
-      ram_walk_10: 661697720
-      ram_walk_9: 450461775
-      ram_walk_7: -577868329
-      ram_walk_4: 497723822
-      ram_walk_13: -1731317650
-      ram_walk_2: 971248294
-      ram_walk_8: -995523326
-      ram_walk_1: -1658134661
-      ram_walk_0: -352690255
+      werewolf-NESW_7: -1005406605
+      werewolf-NESW_11: 1689919817
+      werewolf-NESW_5: -741044713
+      werewolf-NESW_9: 1949697441
+      werewolf-NESW_8: -2113968681
+      werewolf-NESW_6: -1179953200
+      werewolf-NESW_1: 1767811614
+      werewolf-NESW_10: -1040217863
+      werewolf-NESW_4: 1049372038
+      werewolf-NESW_3: -1411314331
+      werewolf-NESW_0: 278633391
+      werewolf-NESW_2: -763238216
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

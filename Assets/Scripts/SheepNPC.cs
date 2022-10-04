@@ -37,7 +37,7 @@ public class SheepNPC : MonoBehaviour
         if(canCheckMove)
         {
             
-            activeState = Random.Range(0,3);
+            activeState = Random.Range(0,4);
             switch(activeState)
             {
                 case 0 ://Move Front
@@ -68,19 +68,17 @@ public class SheepNPC : MonoBehaviour
                     StartCoroutine(Walk());
                     break;
 
+                case 4:
+                    break;
+
             }
         }
 
         if(canMove)
         {
-            Vector3 moveDir = new Vector3(dirX, 0f, dirY);
-            transform.Translate(moveDir * speed * Time.deltaTime, Space.World);
+                Vector3 moveDir = new Vector3(dirX, 0f, dirY);
+                transform.Translate(moveDir * speed * Time.deltaTime, Space.World);
         }        
-        else
-        {
-            transform.Translate(Vector3.zero);
-            rb.velocity = Vector3.zero;
-        }
     }
     
     private void OnCollisionEnter(Collision other) 
@@ -89,6 +87,12 @@ public class SheepNPC : MonoBehaviour
         // canMove = false;
         StartCoroutine(SetIdle());
     }
+
+    // private void OnCollisionStay(Collision other) {
+    //     StopCoroutine(Walk());
+    //     // canMove = false;
+    //     StartCoroutine(SetIdle());
+    // }
 
     // private void OnTriggerEnter(Collider other) //when collision is detected. the sheep will stop moving and set idle state
     // {
@@ -99,6 +103,9 @@ public class SheepNPC : MonoBehaviour
     private IEnumerator Walk()
     {
         StopCoroutine(SetIdle());
+
+        canCheckMove = false;
+
         anim.SetBool("isMoving", true);
         anim.SetFloat("DirectionX", dirX);
         anim.SetFloat("DirectionY", dirY);
@@ -112,12 +119,17 @@ public class SheepNPC : MonoBehaviour
     }
 
     private IEnumerator SetIdle()
-    {
+    {   
         canMove = false;
-        
         anim.SetBool("isMoving", false);
+        anim.SetFloat("DirectionX", 0f);
+        anim.SetFloat("DirectionY", 0f);
+
+        transform.Translate(Vector3.zero);
+        rb.velocity = Vector3.zero;
+
+        yield return new WaitForSeconds(5);
         
-        yield return new WaitForSecondsRealtime(TimeToTurn);
         canCheckMove = true;
     }
 }
